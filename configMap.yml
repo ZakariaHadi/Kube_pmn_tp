@@ -1,0 +1,10 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: configmap-tp2
+data:
+  # property-like keys; each key maps to a simple value
+  BLOG_DB_NAME: "blog"
+  BLOG_DB_USERNAME: "userblog"
+  BLOG_DB_PASSWORD: "passblog42@"
+  BLOG_DB_HOST: "wp-db"
